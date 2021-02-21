@@ -1,0 +1,39 @@
+h1{
+    color:rgb(0,0,0);
+    margin-left :450px;
+}
+.header *{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.site-description{
+    display:flex;
+    flex-direction: column;
+    justify-content: first baseline;
+    background-color: blue;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+ .item{
+     border:crimson;
+     border-radius: 20px;
+     background-color: rgb(179, 0, 0);
+     padding: 30px;
+     margin: 25px;
+
+     width: 310px;
+     font-family: Georgia, 'Times New Roman', Times, serif;  
+ }
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+p,h2{
+    text-align: center;
+}
